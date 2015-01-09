@@ -1,0 +1,16 @@
+bond:
+  first_name: James
+  last_name: Bond
+  email: jamesbond007@mi6.gov.uk
+bourne:
+  first_name: Jason
+  last_name: Bourne
+  email: jbourne@cia.gov
+fedora:
+  first_name: Johnny
+  last_name: Fedora
+  email: fedora@fedora.net
+sherlock:
+  first_name: Sherlock
+  last_name: Holmes
+  email: holmes@baker-street.co.uk
