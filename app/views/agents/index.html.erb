@@ -1,0 +1,17 @@
+<h1>hello agents!</h1>
+
+<p><%= link_to "Agents on assignment", agents_path( filter: { on_assignment: true } ) %></p>
+
+<p><%= link_to "Agents not on assignment", agents_path( filter: { on_assignment: false } ) %></p>
+
+<ul>
+  <% @agents.each do |agent| %>
+    <li>
+      <%= link_to agent do %>
+        <%= agent.name %>
+      <% end %>
+    </li>
+  <% end %>
+</ul>
+
+<p><%= link_to "New agent", new_agent_path %></p>
